@@ -26,6 +26,7 @@ class MainWindow(QtWidgets.QDialog):
         Дата рождения:\t{user_data['date_of_birth']}
         Пол:\t\t{user_data['gender']}
         """
+
         QtWidgets.QMessageBox.information(self, "Успешная регистрация", user_info)
 
 
